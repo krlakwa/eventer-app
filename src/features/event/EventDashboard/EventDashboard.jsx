@@ -55,9 +55,19 @@ const eventsDashboard = [
 ]
 
 class EventDashboard extends Component {
+<<<<<<< HEAD
   state = {
       events: eventsDashboard,
       isOpen: false
+=======
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      events: eventsDashboard,
+      isOpen: false
+    }
+>>>>>>> f663bc78f3af07e8c6b82b93c5f0bcd2054a005b
   }
 
   handleFormOpen = (value) => () => {
